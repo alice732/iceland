@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://storage.googleapis.com/pod_public/1300/133602.jpg) ;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+#box{
+    position: absolute;
+    height: 100%;
+    width: 40%;
+    background-color: #79797913;
+    backdrop-filter: blur(7px);
+}
+#nav-left{
+    height: 90px;
+    width: 100%;
+    background-color: transparent;
+}
+#nav-left h1{
+    word-spacing: 8px;
+    font-size: 14px;
+    margin-left: 10%;
+    padding-top: 6%;
+    text-transform: uppercase;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
+    z-index: 9;
+}
+#icon{
+    margin-left: 74%;
+margin-top: -3%;
+}
+h2{
+    font-size: 120px;
+   margin-top: 20%;
+   margin-left: 68%;
+   background-image: url(https://plus.unsplash.com/premium_photo-1663950775289-98978826928b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODF8fGZvcmVzdHxlbnwwfHwwfHx8MA%3D%3D);
+   background-size: cover;
+   background-position: center;
+   background-clip: text;
+   -webkit-background-clip:text;
+   -webkit-text-fill-color: transparent;
+   animation-name: ice;
+   animation-fill-mode: backwards;
+   animation-duration: 3s;
+   animation-iteration-count: 1;
+   position: absolute;
+   animation-delay: 3s;
+   animation-timing-function: linear;
+}
+@keyframes ice{
+    from{
+        left:200%;
+        }
+     to{
+        left: 0%;
+     }   
+}
+#main2{
+    height: 30%;
+    width: 70%;
+    background-color:transparent;  
+    display: flex; 
+    margin-left: 12%; 
+    margin-top: 16%;
+    position: relative;
+}
+#h{
+    height:60px;
+    width: 60px;
+    background-color: transparent;
+    margin-top: 70%;
+}
+h3{
+    font-size: 31px;
+    color: rgb(204, 203, 203, 0.925);
+    position: relative;
+    margin-left: 20%;
+    margin-top: 1%;
+    padding-bottom: 2%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    letter-spacing: 6px;
+}
+#para{
+    height: 55%;
+    width: 100%;
+    background-color: transparent;
+  margin-top: 70%;
+  position: relative;
+}
+#para h1{
+    font-size: 30px;
+    color: rgb( 204, 203, 203, 0.925);
+    margin-left: 2%;
+    margin-top: 1%;
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+#para p{
+    font-size: 10px;
+    color: rgba(204, 203, 203, 0.925);
+    position: relative;
+    margin-left: 2%;
+    margin-top: 2%;
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    letter-spacing: 2px; 
+    text-align: left;
+    word-spacing: 2px;
+}
+#main-left h1{
+    font-size: 99px;
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+    left: 40%;
+   margin-top: 22%;
+    position: absolute;
+    color: white;
+    animation-name: land;
+    animation-fill-mode: backwards;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-delay: 3s;
+    animation-timing-function:linear;
+}
+@keyframes land{
+    from{
+        left:-30%;
+    }
+    to{
+      left:40%
+    }
+}
+#nav-RIGHT{
+    height: 90px;
+    width: 60%;
+    background-color: transparent;
+    position: absolute;
+    margin-left: 40%;
+   padding-left: 28%;
+   padding-top: 2%;
+   word-spacing: 50px;
+  
+}
+#nav-RIGHT a{
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    font-size:13px ;
+    text-decoration: none;
+    color: white;
+   text-align: center;
+}
+#nav-RIGHT a:nth-child(2){
+  word-spacing: 1px;
+}
+#vertical-nav{
+    height: 18%;
+    width: 38%;
+    background-color: transparent;
+    transform: rotate(-90deg);
+    position: absolute;
+    margin-left: 77%;
+    margin-top: 16%;
+}
+#vertical-nav h5{
+   padding-left: 3%;
+   padding-top: 7%;
+    font-size: 60px;
+    color: white;
+}
+#circle{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: beige;
+    background-image: url(https://plus.unsplash.com/premium_photo-1663950775289-98978826928b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8ODF8fGZvcmVzdHxlbnwwfHwwfHx8MA%3D%3D);
+    background-position: center;
+    background-size: cover;
+    animation-name: up;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+    animation-iteration-count: 1;
+    animation-duration: 2s;
+top: 40%;
+    margin-left: 45%;
+
+}
+@keyframes up{
+    from{
+        top: 38%;
+    }
+    to{
+        top: -30%;
+    }
+}
+#black{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    animation-name: upp;
+    animation-delay: 2s ;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-duration: 4s;
+   
+}
+@keyframes upp{
+    from{
+        top:0;
+    }
+    to{
+        top: -200%;
+    }
+}
